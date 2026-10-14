@@ -1,0 +1,35 @@
+cd backend-django
+uv run --python ..\.venv314\Scripts\python.exe python manage.py migrate
+uv run --python ..\.venv314\Scripts\python.exe python manage.py runserver
+
+
+Run the gateway in Terminal 2:
+cd node-service
+npm run dev
+
+Run the frontend in Terminal 3:
+cd frontend
+npm run dev 
+
+Open:
+http://localhost:5173
+
+
+Services:
+Frontend: 5173
+Express gateway: 4000
+Django API: 8000
+
+
+Technology used
+Frontend: React + TypeScript + Vite
+UI: Tailwind CSS, Framer Motion, Lucide icons
+Backend: Django + Django REST Framework
+Gateway: Node.js + Express
+Database: SQLite by default; PostgreSQL optional
+AI: Google Gemini API using google-genai
+Streaming: Server-Sent Events (SSE)
+Authentication: Django token authentication
+Markdown: React Markdown with GitHub-flavored Markdown and syntax highlighting
+
+

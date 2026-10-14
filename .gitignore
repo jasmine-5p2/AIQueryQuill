@@ -1,0 +1,11 @@
+.env
+*.sqlite3
+*-runtime.log
+*-error.log
+__pycache__/
+.venv/
+node_modules/
+dist/
+.pytest_cache/
+*.tsbuildinfo
+**/Microsoft/

@@ -1,0 +1,1 @@
+{"name":"queryquill-gateway","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"node --watch index.js","start":"node index.js"},"dependencies":{"express":"^4.21.2","express-rate-limit":"^7.5.0","http-proxy-middleware":"^3.0.3","helmet":"^8.0.0","dotenv":"^16.4.7"}}
